@@ -15,14 +15,15 @@ header {
     font-size: 25px;
     margin: 20px;
 }
-
 img {
-    object-fit: cover;
-}
+    max-width: 100%;
+    height: auto;
+  }
 
 footer {
     background-color: #ad17bb;
     padding: 2px;
     text-align: center;
     font-size: 20px;
+    color: white;
 }
