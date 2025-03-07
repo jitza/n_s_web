@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,rgb(222, 196, 116), rgb(209, 81, 187));
+    color: wheat;
+    text-align: center;
+}
+
+header {
+    border-top: solid;
+    border-bottom: solid;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+img {
+    object-fit: cover;
+}
+
+footer {
+    background-color: #ad17bb;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+}
