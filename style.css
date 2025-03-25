@@ -20,14 +20,12 @@ img {
     height: auto;
 }
 
-/* iframe[src*="docs.google.com"] {
-    width: 100%;
+iframe[src*="docs.google.com"] {
+    width: 1145;
     height: auto;
     aspect-ratio: 16 / 9;
     border: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-}   */
+}  
 
 footer {
     background-color: #ad17bb;
@@ -35,4 +33,14 @@ footer {
     text-align: center;
     font-size: 20px;
     color: white;
+}
+
+/* Media query for screens narrower than 800px */
+@media only screen and (max-width: 900px) {
+    iframe[src*="docs.google.com"] {
+        width: 100%;
+        height: auto;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
 }
