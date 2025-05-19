@@ -20,6 +20,7 @@ img {
     height: auto;
 }
 
+iframe[src*="app.nearpod.com"],
 iframe[src*="docs.google.com"] {
     width: 1145;
     height: auto;
@@ -37,6 +38,7 @@ footer {
 
 /* Media query for screens narrower than 800px */
 @media only screen and (max-width: 900px) {
+    iframe[src*="app.nearpod.com"],
     iframe[src*="docs.google.com"] {
         width: 100%;
         height: auto;
